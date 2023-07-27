@@ -17,8 +17,9 @@ function mostrar(hist){ // numeros e caracteres digitados
     }
   }
 
+
   document.querySelector("h3").textContent = total
-  total = 0
+  total=0
   num = ""
 }
 
