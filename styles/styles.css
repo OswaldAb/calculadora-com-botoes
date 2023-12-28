@@ -1,79 +1,35 @@
-*{
-  margin: 0px;
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #1d123e;
+  color: #1d123e;
+  font-size: 62.5;
 }
 
-header{
-  color: yellow;
-  background-color: black;
-  padding: 30px;
-}
-
-h1{
-  font-size: 20px;
-}
-
-section{
-  margin: 30px;
-  height: fixed;
-  width: fixed;
-
-}
-
-table{
-  background-color: #000;
-
-  border: 1px solid #000;
-  border-spacing: 2px;
-  border-radius: 20px 20px;
-}
-
-td{
-  color: black;
-  background-color: #6495ED;
-  font-size: 40px;
-  padding: 20px;
-  border: 1px solid #DDD;
-}
-
-thead{
-  height: fixed;
-  width: fixed;
-}
-
-th{
-  color: black;
-  background-color: #6495ED;
-  font-size: 40px;
-  padding: 20px;
-  border: 1px solid #DDD;
+.result {
+  color: #fff;
   text-align: right;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  min-width: 17rem;
+  max-width: 17rem;
+  min-height: 10rem;
+  max-height: 10rem;
 }
 
-div{
-  font-size: 20px;
-  height: 30px;
+.calculator {
+  display: table;
+  margin: 2rem auto;
+}
+.buttonKey, sup{
+  width: 4rem;
+  height: 4rem;
+  font-size: 1em;
+  margin: 0.3rem;
+  border-radius: 10px 10px;
+  background-color: rgb(3, 202, 172);
 }
 
-sup, sub{
-  font-size: 15px;
-}
-
-td:hover{
-  color: red;
-  background-color: #ddd;
-}
-
-.fl{
-  border-bottom-left-radius: 20px;
-}
-.fr{
-  border-bottom-right-radius: 20px;
-}
-
-footer{
-  color: yellow;
-  background-color: black;
-  padding: 20px;
+.buttonKey:hover, sup :hover {
+  background-color: rgb(44, 109, 170);
 }
